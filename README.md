@@ -4,7 +4,7 @@
 
 <h1><a href="https://vue.netcoresaas.com">NetcoreSaas</a></h1>
 
-### [VueJS (Typescript) + TailwindCSS - SaaS Frontend](https://vue.netcoresaas.com)
+### [VueJS (TypeScript) + TailwindCSS frontend for SaaS apps](https://vue.netcoresaas.com)
 
 - [x] Marketing pages (landing, pricing, contact, blog)
 - [x] Admin pages (organizations, products, resources)
