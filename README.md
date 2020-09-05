@@ -59,7 +59,7 @@ Let me know if you'd like to see this frontend in React or Angular.
 
 ### License
 
-This project is free for commercial use, however it has no backend, if you're interested in the .NET Core backend, you can get an [early access license here](https://netcoresaas.com/pricing), and you'll be able to:
+This project is [free for commercial use](./LICENSE), however it has no backend, if you're interested in the .NET Core backend, you can get an [early access license here](https://netcoresaas.com/pricing), and you'll be able to:
 
 - [x] Get the working .NET Core backend
 - [x] Use PostgreSQL or MySQL (more comming soon)
