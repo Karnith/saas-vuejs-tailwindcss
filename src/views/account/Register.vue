@@ -1,8 +1,6 @@
 <template>
   <div class>
-    <div
-      class="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8"
-    >
+    <div class="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <div class="sm:mx-auto sm:w-full sm:max-w-md">
         <marketing-logo></marketing-logo>
       </div>
@@ -10,33 +8,70 @@
       <div v-if="!registered">
         <h2
           class="mt-6 text-center text-3xl leading-9 font-bold text-secondary"
-        >
-          {{ $t("account.register.title") }}
-        </h2>
+        >{{ $t("account.register.title") }}</h2>
         <p class="mt-2 text-center text-sm leading-5 text-secondary max-w">
           {{ $t("account.register.alreadyRegistered") }}
           <a
             class="font-medium text-theme-500 hover:text-theme-400 focus:outline-none focus:underline transition ease-in-out duration-150"
           >
-            <router-link :to="{ path: '/login' }">{{
+            <router-link :to="{ path: '/login' }">
+              {{
               $t("account.register.clickHereToLogin")
-            }}</router-link>
+              }}
+            </router-link>
           </a>
         </p>
         <div class="w-full flex justify-center mt-4">
-          <Billing-Period-Toggle
-            v-if="!selectedPriceOnce()"
-          ></Billing-Period-Toggle>
+          <Billing-Period-Toggle v-if="!selectedPriceOnce()"></Billing-Period-Toggle>
         </div>
         <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+          <div class="bg-theme-100 mb-2 rounded-md border border-theme-300 mt-2">
+            <div class="rounded-md bg-theme-50 p-4">
+              <div class="flex">
+                <div class="flex-shrink-0">
+                  <svg class="h-5 w-5 text-theme-400" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      fill-rule="evenodd"
+                      d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+
+                <div class="ml-3">
+                  <h3
+                    class="text-sm leading-5 font-medium text-theme-800"
+                  >{{ $t("netcoresaas.backendNeeded") }}</h3>
+                  <div class="mt-2 text-sm leading-5 text-theme-700">
+                    <p>{{ $t("netcoresaas.fakeRegister") }}</p>
+                  </div>
+                  <div class="text-sm leading-5 right-0 -ml-3 mt-2">
+                    <span class="inline-flex rounded-md ml-2">
+                      <a
+                        href="https://netcoresaas.com/product"
+                        target="_blank"
+                        class="flex items-center justify-center px-4 py-2 border border-transparent text-sm bg-theme-200 leading-5 font-medium rounded-md text-theme-800 bg-white hover:text-theme-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
+                      >{{ $t("netcoresaas.getBackend") }}</a>
+                    </span>
+                    <span class="inline-flex rounded-md ml-2">
+                      <a
+                        href="https://demo.netcoresaas.com"
+                        target="_blank"
+                        class="flex items-center justify-center px-4 py-2 border border-transparent text-sm bg-theme-200 leading-5 font-medium rounded-md text-theme-800 bg-white hover:text-theme-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
+                      >{{ $t("netcoresaas.demo") }}</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="bg-secondary py-8 px-4 shadow sm:rounded-lg sm:px-10">
             <form @submit.prevent="tryRegisterWithPassword">
               <div class>
                 <label
                   for="company"
                   class="block text-sm font-medium leading-5 primary"
-                  >{{ $t("account.register.organization") }}</label
-                >
+                >{{ $t("account.register.organization") }}</label>
                 <div class="mt-1 rounded-md shadow-sm">
                   <input
                     v-model="user.organization"
@@ -52,8 +87,7 @@
                 <label
                   for="email"
                   class="block text-sm font-medium leading-5 primary"
-                  >{{ $t("account.shared.email") }}</label
-                >
+                >{{ $t("account.shared.email") }}</label>
                 <div class="mt-1 rounded-md shadow-sm">
                   <input
                     v-model="user.email"
@@ -69,8 +103,7 @@
                 <label
                   for="firstName"
                   class="block text-sm font-medium leading-5 primary"
-                  >{{ $t("account.register.firstName") }}</label
-                >
+                >{{ $t("account.register.firstName") }}</label>
                 <div class="mt-1 rounded-md shadow-sm">
                   <input
                     v-model="user.firstName"
@@ -86,8 +119,7 @@
                 <label
                   for="lastName"
                   class="block text-sm font-medium leading-5 primary"
-                  >{{ $t("account.register.lastName") }}</label
-                >
+                >{{ $t("account.register.lastName") }}</label>
                 <div class="mt-1 rounded-md shadow-sm">
                   <input
                     v-model="user.lastName"
@@ -103,8 +135,7 @@
                 <label
                   for="phone"
                   class="block text-sm font-medium leading-5 primary"
-                  >{{ $t("settings.profile.phone") }}</label
-                >
+                >{{ $t("settings.profile.phone") }}</label>
                 <div class="mt-1 rounded-md shadow-sm">
                   <input
                     v-model="user.phone"
@@ -119,8 +150,7 @@
                 <label
                   for="password"
                   class="block text-sm font-medium leading-5 primary"
-                  >{{ $t("account.register.password") }}</label
-                >
+                >{{ $t("account.register.password") }}</label>
                 <div class="mt-1 rounded-md shadow-sm">
                   <input
                     v-model="user.password"
@@ -135,8 +165,7 @@
                 <label
                   for="confirmPassword"
                   class="block text-sm font-medium leading-5 primary"
-                  >{{ $t("account.register.confirmPassword") }}</label
-                >
+                >{{ $t("account.register.confirmPassword") }}</label>
                 <div class="mt-1 rounded-md shadow-sm">
                   <input
                     v-model="user.confirmPassword"
@@ -164,16 +193,12 @@
 
               <div class="mt-6">
                 <span class="block w-full rounded-md shadow-sm">
-                  <loading-button
-                    class="w-full block"
-                    type="submit"
-                    ref="loadingButton"
-                  >
+                  <loading-button class="w-full block" type="submit" ref="loadingButton">
                     <span v-if="selectedPrice.trialDays > 0">
                       {{
-                        $t("account.register.startTrial", [
-                          selectedPrice.trialDays,
-                        ])
+                      $t("account.register.startTrial", [
+                      selectedPrice.trialDays,
+                      ])
                       }}
                     </span>
                     <span v-else>{{ getButtonText }}</span>
@@ -200,9 +225,11 @@
                     <div class="w-full border-t border-gray-300"></div>
                   </div>
                   <div class="relative flex justify-center text-sm leading-5">
-                    <span class="px-2 bg-secondary text-gray-500">{{
+                    <span class="px-2 bg-secondary text-gray-500">
+                      {{
                       $t("account.register.orSignUpUsing")
-                    }}</span>
+                      }}
+                    </span>
                   </div>
                 </div>
 
@@ -241,54 +268,6 @@
               </div>
             </form>
           </div>
-          <div
-            class="bg-theme-100 mb-2 rounded-md border border-theme-300 mt-8"
-          >
-            <div class="rounded-md bg-theme-50 p-4">
-              <div class="flex">
-                <div class="flex-shrink-0">
-                  <svg
-                    class="h-5 w-5 text-theme-400"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </div>
-
-                <div class="ml-3">
-                  <h3 class="text-sm leading-5 font-medium text-theme-800">
-                    {{ $t("netcoresaas.backendNeeded") }}
-                  </h3>
-                  <div class="mt-2 text-sm leading-5 text-theme-700">
-                    <p>{{ $t("netcoresaas.fakeRegister") }}</p>
-                  </div>
-                  <div class="text-sm leading-5 right-0 -ml-3 mt-2">
-                    <span class="inline-flex rounded-md ml-2">
-                      <a
-                        href="https://netcoresaas.com/product"
-                        target="_blank"
-                        class="flex items-center justify-center px-4 py-2 border border-transparent text-sm bg-theme-200 leading-5 font-medium rounded-md text-theme-800 bg-white hover:text-theme-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
-                        >{{ $t("netcoresaas.getBackend") }}</a
-                      >
-                    </span>
-                    <span class="inline-flex rounded-md ml-2">
-                      <a
-                        href="https://demo.netcoresaas.com"
-                        target="_blank"
-                        class="flex items-center justify-center px-4 py-2 border border-transparent text-sm bg-theme-200 leading-5 font-medium rounded-md text-theme-800 bg-white hover:text-theme-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
-                        >{{ $t("netcoresaas.demo") }}</a
-                      >
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <div v-else class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
@@ -297,22 +276,16 @@
         >
           <h2
             class="mt-6 text-center text-3xl leading-9 font-bold text-secondary"
-          >
-            {{ $t("account.register.successTitle") }}
-          </h2>
+          >{{ $t("account.register.successTitle") }}</h2>
           <div class="my-4 leading-tight">
-            <p class="mt-2 text-center text-sm leading-5 text-secondary max-w">
-              {{ $t("account.register.successText") }}
-            </p>
             <p
-              v-if="verifyToken"
               class="mt-2 text-center text-sm leading-5 text-secondary max-w"
-            >
+            >{{ $t("account.register.successText") }}</p>
+            <p v-if="verifyToken" class="mt-2 text-center text-sm leading-5 text-secondary max-w">
               <a
                 :href="verifyURL"
                 class="font-medium text-red-600 hover:text-red-500 focus:outline-none focus:underline transition ease-in-out duration-150"
-                >{{ $t("account.register.clickHereToVerify") }}</a
-              >
+              >{{ $t("account.register.clickHereToVerify") }}</a>
             </p>
           </div>
         </div>
@@ -333,9 +306,7 @@
           class="block w-full py-2 px-3 border border-transparent rounded-md text-white font-semibold bg-theme-700 hover:bg-theme-600 focus:bg-theme-500 focus:outline-none focus:shadow-outline sm:text-sm sm:leading-5"
           @click="pay"
           :disabled="!cardCompleted"
-        >
-          {{ getButtonText }}
-        </button>
+        >{{ getButtonText }}</button>
       </div>
     </modal>
     <error-modal

@@ -2,35 +2,76 @@
   <div class>
     <!-- <div v-if="loading">Loading</div>
     <div v-else>-->
-    <div
-      class="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8"
-    >
+    <div class="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <marketing-logo></marketing-logo>
       <div class="sm:mx-auto sm:w-full sm:max-w-md">
-        <h2 class="mt-6 text-center text-3xl leading-9 font-bold text-primary">
-          {{ $t("account.login.title") }}
-        </h2>
+        <h2
+          class="mt-6 text-center text-3xl leading-9 font-bold text-primary"
+        >{{ $t("account.login.title") }}</h2>
         <p class="mt-2 text-center text-sm leading-5 text-primary max-w">
           {{ $t("shared.or") }}
           <a
             class="font-medium text-theme-500 hover:text-theme-400 focus:outline-none focus:underline transition ease-in-out duration-150"
           >
-            <router-link :to="{ path: '/pricing' }">{{
+            <router-link :to="{ path: '/pricing' }">
+              {{
               $t("account.login.orStartTrial")
-            }}</router-link>
+              }}
+            </router-link>
           </a>
         </p>
       </div>
 
       <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+        <div class="bg-theme-100 mb-2 rounded-md border border-theme-300 -mt-2">
+          <div class="rounded-md bg-theme-50 p-4">
+            <div class="flex">
+              <div class="flex-shrink-0">
+                <svg class="h-5 w-5 text-theme-400" viewBox="0 0 20 20" fill="currentColor">
+                  <path
+                    fill-rule="evenodd"
+                    d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+
+              <div class="ml-3">
+                <h3
+                  class="text-sm leading-5 font-medium text-theme-800"
+                >{{ $t("netcoresaas.backendNeeded") }}</h3>
+                <div class="mt-2 text-sm leading-5 text-theme-700">
+                  <p>{{ $t("netcoresaas.fakeLoginAdmin") }}</p>
+                  <p>{{ $t("netcoresaas.fakeLoginTenant") }}</p>
+                  <p>{{ $t("netcoresaas.fakeLoginPassword") }}</p>
+                </div>
+                <div class="text-sm leading-5 right-0 -ml-3 mt-2">
+                  <span class="inline-flex rounded-md ml-2">
+                    <a
+                      href="https://netcoresaas.com/product"
+                      target="_blank"
+                      class="flex items-center justify-center px-4 py-2 border border-transparent text-sm bg-theme-200 leading-5 font-medium rounded-md text-theme-800 bg-white hover:text-theme-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
+                    >{{ $t("netcoresaas.getBackend") }}</a>
+                  </span>
+                  <span class="inline-flex rounded-md ml-2">
+                    <a
+                      href="https://demo.netcoresaas.com"
+                      target="_blank"
+                      class="flex items-center justify-center px-4 py-2 border border-transparent text-sm bg-theme-200 leading-5 font-medium rounded-md text-theme-800 bg-white hover:text-theme-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
+                    >{{ $t("netcoresaas.demo") }}</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="bg-secondary py-8 px-4 shadow sm:rounded-lg sm:px-10">
           <form @submit.prevent="login()">
             <div>
               <label
                 for="email"
                 class="block text-sm font-medium leading-5 text-primary"
-                >{{ $t("account.shared.email") }}</label
-              >
+              >{{ $t("account.shared.email") }}</label>
               <div class="mt-1 relative rounded-md shadow-sm">
                 <!-- <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                   <svg class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
@@ -55,8 +96,7 @@
               <label
                 for="current-password"
                 class="block text-sm font-medium leading-5 text-primary"
-                >{{ $t("account.shared.password") }}</label
-              >
+              >{{ $t("account.shared.password") }}</label>
               <div class="mt-1 relative rounded-md shadow-sm">
                 <!-- <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                   <svg class="h-4 w-4 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
@@ -88,26 +128,16 @@
                 <a
                   class="font-medium text-gray-600 hover:text-gray-400 focus:outline-none focus:underline transition ease-in-out duration-150"
                 >
-                  <router-link :to="{ path: 'forgot' }">
-                    {{ $t("account.login.forgot") }}
-                  </router-link>
+                  <router-link :to="{ path: 'forgot' }">{{ $t("account.login.forgot") }}</router-link>
                 </a>
               </div>
             </div>
 
             <div class="mt-6">
               <span class="block w-full rounded-md shadow-sm">
-                <loading-button
-                  class="w-full block"
-                  type="submit"
-                  ref="loadingButton"
-                >
+                <loading-button class="w-full block" type="submit" ref="loadingButton">
                   <span class="absolute left-0 inset-y pl-3">
-                    <svg
-                      class="h-5 w-5 text-gray-200"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
+                    <svg class="h-5 w-5 text-gray-200" fill="currentColor" viewBox="0 0 20 20">
                       <path
                         fill-rule="evenodd"
                         d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
@@ -143,9 +173,11 @@
                 <div class="w-full border-t border-gray-500"></div>
               </div>
               <div class="relative flex justify-center text-sm leading-5">
-                <span class="px-2 bg-secondary text-gray-500">{{
+                <span class="px-2 bg-secondary text-gray-500">
+                  {{
                   $t("account.login.orSignInUsing")
-                }}</span>
+                  }}
+                </span>
               </div>
             </div>
 
@@ -179,56 +211,6 @@
                     </svg>
                   </button>
                 </span>
-              </div>
-            </div>
-          </div>
-          <div
-            class="bg-theme-100 mb-2 rounded-md border border-theme-300 mt-8"
-          >
-            <div class="rounded-md bg-theme-50 p-4">
-              <div class="flex">
-                <div class="flex-shrink-0">
-                  <svg
-                    class="h-5 w-5 text-theme-400"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </div>
-
-                <div class="ml-3">
-                  <h3 class="text-sm leading-5 font-medium text-theme-800">
-                    {{ $t("netcoresaas.backendNeeded") }}
-                  </h3>
-                  <div class="mt-2 text-sm leading-5 text-theme-700">
-                    <p>{{ $t("netcoresaas.fakeLoginAdmin") }}</p>
-                    <p>{{ $t("netcoresaas.fakeLoginTenant") }}</p>
-                    <p>{{ $t("netcoresaas.fakeLoginPassword") }}</p>
-                  </div>
-                  <div class="text-sm leading-5 right-0 -ml-3 mt-2">
-                    <span class="inline-flex rounded-md ml-2">
-                      <a
-                        href="https://netcoresaas.com/product"
-                        target="_blank"
-                        class="flex items-center justify-center px-4 py-2 border border-transparent text-sm bg-theme-200 leading-5 font-medium rounded-md text-theme-800 bg-white hover:text-theme-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
-                        >{{ $t("netcoresaas.getBackend") }}</a
-                      >
-                    </span>
-                    <span class="inline-flex rounded-md ml-2">
-                      <a
-                        href="https://demo.netcoresaas.com"
-                        target="_blank"
-                        class="flex items-center justify-center px-4 py-2 border border-transparent text-sm bg-theme-200 leading-5 font-medium rounded-md text-theme-800 bg-white hover:text-theme-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
-                        >{{ $t("netcoresaas.demo") }}</a
-                      >
-                    </span>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
