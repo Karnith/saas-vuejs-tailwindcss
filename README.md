@@ -61,4 +61,4 @@ If you get an [early access license](https://netcoresaas.com/pricing), you'll be
 - [x] Use PostgreSQL or MySQL (more comming soon)
 - [x] Access to knew features released every month
 - [x] Setup your Stripe pricing (products/subscriptions)
-- [x] Send SMTP or Postmark emails (welcome, invited, password reset)
+- [x] Send SMTP or [Postmark](https://postmarkapp.com) emails (welcome, invited, password reset)
