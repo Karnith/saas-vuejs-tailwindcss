@@ -55,7 +55,7 @@ If end up using this product for commercial purposes [sponsor this project](http
 
 ### What about React?
 
-Let me know if you'd like to see this frontend in React or Angular.
+[Let me know](https://twitter.com/alexandromtzg) if you'd like to see this frontend in React or Angular.
 
 ### License
 
