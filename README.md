@@ -57,7 +57,7 @@ If end up using this product for commercial purposes [sponsor this project](http
 
 Let me know if you'd like to see this frontend in React or Angular.
 
-### [License](https://netcoresaas.com)
+### License
 
 This project is free for commercial use, however it has no backend, if you're interested in the .NET Core backend, you can get an [early access license here](https://netcoresaas.com/pricing), and you'll be able to:
 
