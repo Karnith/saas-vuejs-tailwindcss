@@ -1,0 +1,15 @@
+{
+    "navbar": {
+        "tenant": "Organización",
+        "profile": "Perfil",
+        "settings": "Ajustes",
+        "signOut": "Cerrar sesión",
+        "integrations": "Integraciones"
+    },
+    "sidebar": {
+        "manage": "Administrar",
+        "catalogs": "Catálogos por cliente",
+        "permissions": "Permisos",
+        "integrations": "Integraciones"
+    }
+}

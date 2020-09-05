@@ -1,0 +1,88 @@
+{
+  "shared": {
+    "email": "ईमेल",
+    "password": "पासवर्ड ",
+    "signIn": "लॉग इन करें",
+    "signOut": "साइन आउट करें"
+  },
+  "login": {
+    "title": "अपने अकाउंट में साइन इन करें",
+    "button": "लॉग इन करें",
+    "orStartTrial": "मुफ़्त ट्रायल शुरू करें",
+    "remember": "मुझे याद रखना",
+    "forgot": "पासवर्ड भूल गए हैं?",
+    "orSignInUsing": "इनका उपयोग करके साइन इन करें",
+    "errorText": "लॉग इन नहीं हो पा रहा",
+
+    "errors": {
+      "unverified": "अपने खाते को सत्यापित करने के लिए अपना ईमेल देखें",
+      "invalid": "अवैध प्रत्यय पत्र",
+      "exists": "उपयोगकर्ता पहले से ही पंजीकृत है",
+      "nonexistent": "आपने पंजीकरण नहीं कराया है",
+      "passwordMissmatch": "Password don't match",
+      "noTenants": "No perteneces a ninguna organización, regístrate para crear una"
+    }
+  },
+  "register": {
+    "title": "अपना खाता बनाएँ",
+    "headline": "रजिस्टर करें और कुछ सेकंडस में शुरू करें",
+    "successTitle": "पंजीकरण सफल हुआ",
+    "successText": "आपने सफलतापूर्वक पंजीकरण कर लिया है, कृपया अपने खाते को सत्यापित करने के लिए अपना ईमेल देखें।",
+    "startTrial": "{0} दिन का ट्रायल पीरीअड शुरू करें",
+    "providePaymentDetails": "कृपया अपना भुगतान विवरण प्रदान करें",
+    "confirmPassword": "पासवर्ड की पुष्टि कीजिये",
+    "orSignUpUsing": "या का उपयोग कर साइन अप करें",
+    "clickHereToLogin": "लॉग इन करने के लिए यहां क्लिक करें",
+    "firstName": "पहला नाम",
+    "lastName": "अंतिम नाम",
+    "company": "कंपनी",
+    "organization": "संगठन",
+    "hostname": "होस्ट का नाम",
+    "termsAndConditions": "नियम और शर्तें",
+    "privacyPolicy": "गोपनीयता नीति",
+    "alreadyRegistered": "पहले से पंजीकृत?",
+    "bySigningUp": "साइन अप करते है, तो आप बताई गई चीजों से सहमत हैं ऐसा हम मानेंगे",
+    "errorText": "पंजीयन नहीं हो सका",
+
+    "setTenantName": "कृपया अपना संगठन निर्दिष्ट करें, यहा आपका नाम हो सकता है",
+    "clickHereToVerify": "खाता (विकास पर्यावरण) सत्यापित करने के लिए यहां क्लिक करें"
+  },
+  "reset": {
+    "title": "पासवर्ड भूल गए हैं?",
+    "headline": "अपना ईमेल दर्ज करें और हम आपको अपना पासवर्ड रीसेट करने के लिए एक लिंक भेजेंगे",
+    "button": "पासवर्ड रीसेट",
+    "resetSuccess": "पासवर्ड रीसेट",
+    "emailSent": "अपना पासवर्ड रीसेट करने के लिए अपने ईमेल की जाँच करें, यदि आपको ईमेल नहीं मिलता है तो कृपया support@netcoresaas.com पर संपर्क करें"
+  },
+  "newPassword": {
+    "title": "एक नया पासवर्ड सेट करें",
+    "button": "पासवर्ड अपडेट करें"
+  },
+  "forgot": {
+    "rememberedPassword": "अपना पासवर्ड याद आगया?",
+    "backToLogin": "लॉगिन पर वापस जाएं"
+  },
+  "invitation": {
+    "invitedYou": "invited you to join",
+    "youWereInvited": "you were invited to join",
+    "requestAccess": "Request access to join",
+    "button": "Accept and continue",
+    "anotherEmail": "Click here to logout to join with another user",
+    "successTitle": "Access request sent!",
+    "successText": "Your access request has been sent to the admin, if it's accepted you will receive a welcome email (make sure to check spam or promotions folder)"
+  },
+  "verify": {
+    "title": "अपने खाते को सत्यापित करें",
+    "button": "सत्यापित करें और जारी रखें",
+    "errors": {
+      "invalid": "अवैध प्रत्यय पत्र",
+      "alreadyVerified": "उपयोगकर्ता पहले से ही सत्यापित है",
+      "organizationTaken": "संगठन का यह नाम किसी और ने लिया हुआ है"
+    }
+  },
+  "tenant": {
+    "undefined": "संगठन अपरिभाषित",
+    "existingUser": "उपयोगकर्ता पहले से ही संगठन में है",
+    "subdomain": "होस्टनाम पहले से ही लिया हुआ है"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "free": "Frontend gratis VueJS (con TypeScript) + TailwindCSS",
+  "backend": "Para obtener un backend funcional, consíguelo en netcoresaas.com",
+  "getBackend": "Obtener backend",
+  "backendNeeded": "Necesita backend",
+  "fakeData": "Estos son datos falsos, implementa los servicios o consigue el backend funcional en https://netcoresaas.com",
+  "demo": "Live demo",
+  "fakeLoginAdmin": "Admin: admin@fake.com",
+  "fakeLoginTenant": "Tenant: tenant@fake.com",
+  "fakeLoginPassword": "Cualquier contraseña",
+  "fakeRegister": "Usa cualquier información falsa, o inicia sesión"
+}

@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "profileTitle": "प्रोफ़ाइल",
+    "profileText": "अपनी यूजर प्रोफ़ाइल बदलें",
+    "securityTitle": "सुरक्षा",
+    "securityText": "अपना पासवर्ड बदलें",
+    "passwordUpdated": "नया पासवर्ड सहेजा गया",
+    "name": "Name",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "phone": "Phone",
+    "role": "Role",
+    "roles": {
+      "Owner": "Owner",
+      "Admin": "Admin",
+      "Member": "Member",
+      "Guest": "Guest"
+    },
+    "joinedMethod": "Joined",
+    "joined": {
+      "Creator": "Creator",
+      "JoinedByInvitation": "By Invitation",
+      "JoinedByLink": "By Link",
+      "JoinedByPublicUrl": "By public URL"
+    },
+    "status": {
+      "PendingInvitation": "Invitation pending",
+      "PendingAcceptance": "Acceptance pending",
+      "Active": "Active",
+      "Inactive": "Inactive"
+    },
+    "password": "पासवर्ड",
+    "passwordConfirm": "पासवर्ड की पुष्टि कीजिये",
+    "passwordCurrent": "वर्तमान पासवर्ड",
+    "profileUpdated": "प्रोफ़ाइल सहेजी गई",
+    "errorText": "परिवर्तनों को सहेजा नहीं जा सका",
+    "passwordMismatch": "पासवर्ड मेल नहीं खाते",
+    "cannotChangePassword": "You signed up without a password, so you don't have one"
+  },
+  "preferences": {
+    "title": "विकल्प",
+    "description": "अपनी प्रेफेरेंसेस बदलें!",
+    "language": "भाषा"
+  },
+  "tenant": {
+    "title": "Organization",
+    "domain": "डोमेन",
+    "subdomain": "उपडोमेन",
+    "general": "सामान्य सेटिंग्स",
+    "updated": "संगठन अपडेट किया गया",
+    "create": "नया संगठन बनाएं",
+    "createDescription": "डेटा को अलग करने के लिए एक नया संगठन बनाएं",
+    "createConfirm": "नया संगठन बनाएं?",
+    "created": "नया संगठन बनाया",
+    "subscription": {
+      "title": "सब्स्क्रिप्शन ",
+      "description": "अपना प्लान और पेमेंट्स विवरण को अपडेट करें",
+      "notSubscribed": "आपके पास कोई सक्रिय सदस्यता नहीं है",
+      "notSubscribedDescription": "कृपया अपनी आवश्यकताओं के अनुसार एक प्लान का चयन करें",
+      "updated": "सदस्यता अपडेट की गई",
+      "alreadySubscribed": "आप पहले से ही सदस्यता ले चुके हैं",
+      "alreadyBought": "You've already bought this",
+      "clickCancel": "रद्द करने के लिए यहां क्लिक करें",
+      "confirmCancel": "क्या आप वाकई अपनी सदस्यता रद्द करना चाहते हैं?",
+      "canceled": "सदस्यता रद्द कर दी गई",
+      "trialing": "आप ट्रायल पर हैं",
+      "upcomingInvoice": "आगामी चालान",
+      "noUpcomingInvoices": "कोई आगामी चालान नहीं",
+      "noInvoicesYet": "अभी तक कोई चालान नहीं हुआ है",
+      "openStripePortal": "मेरा सदस्यता पोर्टल खोलें"
+    },
+    "payment": {
+      "title": "भुगतान विवरण",
+      "card": "कार्ड",
+      "ending": "समाप्त हो रहा है",
+      "updated": "भुगतान विवरण अपडेट किया गया",
+      "notset": "कोई भुगतान विधि सेट नहीं है, कृपया क्रेडिट या डेबिट कार्ड जोड़ें"
+    },
+    "invoices": {
+      "title": "मेरा बीजक"
+    },
+    "members": {
+      "title": "सदस्य सूची",
+      "maxNumberOfUsers": "Max number of users reached",
+      "invite": "Invite link",
+      "inviteDescription": "Share this secret link to invite people to {0}. Only admins can see this.",
+      "inviteResetLink": "Click here to generate a new link",
+      "enableLink": "Enable link",
+      "requireAcceptance": "Require acceptance"
+    }
+  }
+}

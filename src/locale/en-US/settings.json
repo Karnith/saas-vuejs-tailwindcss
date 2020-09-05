@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "profileTitle": "Profile",
+    "profileText": "Change your user profile",
+    "securityTitle": "Security",
+    "securityText": "Change your password",
+    "passwordUpdated": "New password saved",
+    "name": "Name",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "phone": "Phone",
+    "role": "Role",
+    "roles": {
+      "Owner": "Owner",
+      "Admin": "Admin",
+      "Member": "Member",
+      "Guest": "Guest"
+    },
+    "joinedMethod": "Joined",
+    "joined": {
+      "Creator": "Creator",
+      "JoinedByInvitation": "By Invitation",
+      "JoinedByLink": "By Link",
+      "JoinedByPublicUrl": "By public URL"
+    },
+    "status": {
+      "PendingInvitation": "Invitation pending",
+      "PendingAcceptance": "Acceptance pending",
+      "Active": "Active",
+      "Inactive": "Inactive"
+    },
+    "password": "Password",
+    "passwordConfirm": "Confirm password",
+    "passwordCurrent": "Current password",
+    "profileUpdated": "Profile saved",
+    "errorText": "Could not save changes",
+    "passwordMismatch": "Passwords don't match",
+    "cannotChangePassword": "You signed up without a password, so you don't have one"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "description": "Change your preferences!",
+    "language": "Language"
+  },
+  "tenant": {
+    "title": "Organization",
+    "domain": "Domain",
+    "subdomain": "Subdomain",
+    "general": "General settings",
+    "updated": "Organization updated",
+    "create": "Create new organization",
+    "createDescription": "Create a new organization to separate data",
+    "createConfirm": "Create new organization?",
+    "created": "Created new organization",
+    "subscription": {
+      "title": "Subscription",
+      "description": "Update your plan and payment details",
+      "notSubscribed": "No subscription",
+      "notSubscribedDescription": "Please select a plan according to your needs",
+      "updated": "Subscription updated",
+      "alreadySubscribed": "You're already subscribed",
+      "alreadyBought": "You've already bought this",
+      "clickCancel": "Click here to cancel",
+      "confirmCancel": "Are you sure you want to cancel your subscription?",
+      "canceled": "Subscription canceled",
+      "trialing": "You're on trial until",
+      "upcomingInvoice": "Upcoming invoice",
+      "noUpcomingInvoices": "No upcoming invoices",
+      "noInvoicesYet": "There are no invoices yet",
+      "openStripePortal": "Open subscription portal"
+    },
+    "payment": {
+      "title": "Payment details",
+      "card": "Card",
+      "ending": "ending in",
+      "updated": "Payment details updated",
+      "notset": "No payment method set, please add a credit or debit card"
+    },
+    "invoices": {
+      "title": "My invoices"
+    },
+    "members": {
+      "title": "Members",
+      "maxNumberOfUsers": "Max number of users reached",
+      "invite": "Invite link",
+      "inviteDescription": "Share this secret link to invite people to {0}. Only admins can see this.",
+      "inviteResetLink": "Click here to generate a new link",
+      "enableLink": "Enable link",
+      "requireAcceptance": "Require acceptance"
+    }
+  }
+}

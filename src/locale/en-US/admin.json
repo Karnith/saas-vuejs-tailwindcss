@@ -1,0 +1,18 @@
+{
+    "title": "Admin",
+    "tenants": "Organizations",
+    "users": "Users",
+    "stripe": "Stripe",
+    "switchToApp": "Switch to app",
+    "switchToAdmin": "Open admin portal",
+    "cannotHaveSubscription": "Admin cannot have a subscription",
+    "pricing": {
+        "title": "Products",
+        "thesePricesAreFromFiles": "This prices are not in the database, these are loaded from:",
+        "generateFromFiles": "Click here to generate these prices in Database and Stripe",
+        "goToPricingPage": "Go to pricing page"
+    },
+    "resources": {
+        "title": "Resources"
+    }
+}

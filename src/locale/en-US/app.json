@@ -1,0 +1,15 @@
+{
+    "navbar": {
+        "tenant": "Organization",
+        "profile": "Profile",
+        "settings": "Settings",
+        "signOut": "Sign out",
+        "integrations": "Integrations"
+    },
+    "sidebar": {
+        "manage": "Manage",
+        "catalogs": "Tenant catalogs",
+        "permissions": "Permissions",
+        "integrations": "Integrations"
+    }
+}

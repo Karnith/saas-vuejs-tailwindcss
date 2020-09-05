@@ -1,0 +1,94 @@
+{
+  "navbar": {
+    "product": "Producto",
+    "pricing": "Precios",
+    "contact": "Contacto",
+    "blog": "Blog",
+    "signIn": "Entrar",
+    "signUp": "Registrarme",
+    "dashboard": "Dashboard",
+    "existingCustomer": "¿Ya tienes cuenta?"
+  },
+  "product": {
+    "pre-headline": "¡Regístrate hoy!",
+    "headline1": "Tu producto soluciona",
+    "headline2": "<este problema> 🤩",
+    "subheadline": "Indica lo que diferencia a tu producto. Incluye a tu público objetivo en el encabezado o subencabezado (tips de saaspages.xyz)",
+    "getStarted": "Comenzar prueba",
+    "learnMore": "Ver más"
+  },
+  "blog": {
+    "title": "Blog",
+    "headline": "Ghost.io RSS Feed"
+  },
+  "pricing": {
+    "title": "Precios",
+    "headline": "Puedes crear una cuenta de prueba, estos son precios falsos",
+    "subheadline": "",
+    "startTrial": "Comenzar prueba de {0} días",
+    "subscribe": "Suscribirme",
+    "upgrade": "Subir de nivel",
+    "downgrade": "Bajar de nivel",
+    "buy": "Comprar",
+    "pay": "Comprar",
+    "payOnce": "Pagar una vez",
+    "updateSubscription": "Actualizar",
+    "recommended": "Recomenando",
+    "month": "Mensual",
+    "year": "Anual",
+    "monthly": "Mensual",
+    "annually": "Anual",
+    "annuallyDiscount": "2 meses gratis",
+    "MonthlyShort": "mes",
+    "YearlyShort": "año",
+    "once": "una vez",
+    "monthInterval": "mes",
+    "yearInterval": "año",
+    "noCreditCardRequired": "No se necesita tarjeta de crédito",
+    "features": {
+      "maxNumberOfUsers": "Hasta {0} usuarios",
+      "unlimitedUsers": "Usuarios ilimitados",
+      "feature2": "Característica 2",
+      "feature3": "Característica 3",
+      "feature4": "Característica 4",
+      "feature5": "Característica 5"
+    },
+    "badges": {
+      "recommended": "Recomendado"
+    }
+  },
+  "contact": {
+    "title": "Contacta a ventas",
+    "headline": "¡Déjanos un mensaje!",
+    "name": "Nombre",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "company": "Empresa",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "sentTitle": "Mensaje enviado",
+    "sentMessage": "Te contactaremos pronto"
+  },
+  "newsletter": {
+    "title": "¿No estás seguro, pero quieres saber más?",
+    "signUp": "Suscríbete a nuestro boletín para estar al día.",
+    "email": "Ingresa tu correo",
+    "wontSpam": "No te preocupes, no hacemos spam.",
+    "subscribe": "Suscribirme",
+    "subscribedTitle": "¡Suscrito!",
+    "subscribedText": "Gracias por registrarte a nuestro boletín informativo",
+    "subscribedClose": "De nada",
+    "errorText": "Hubo un problema suscribiéndote"
+  },
+  "faq": {
+    "title": "Preguntas más frecuentes"
+  },
+  "footer": {
+    "copyright": "2020, todos los derechos reservados."
+  },
+  "launching": {
+    "launch": "Comprar ahora!",
+    "getNotified": "Compra la base de código para tu siguiente SaaS!"
+  }
+}

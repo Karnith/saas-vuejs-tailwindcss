@@ -1,0 +1,15 @@
+{
+    "navbar": {
+        "tenant": "संगठन",
+        "profile": "प्रोफ़ाइल",
+        "settings": "सेटिंग्स",
+        "signOut": "साइन आउट ",
+        "integrations": "एकीकरण"
+    },
+    "sidebar": {
+        "manage": "प्रबंधित",
+        "catalogs": "Tenant catalogs",
+        "permissions": "Permissions",
+        "integrations": "Integrations"
+    }
+}

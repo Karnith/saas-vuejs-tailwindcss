@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "strictFunctionTypes": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "target": "es6",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": [
+      "webpack-env", "node", "stripe"
+    ],
+    "typeRoots": ["../node_modules/@types"],
+    "paths": {
+      "@/*": ["./src/*", "./*"],
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost",
+      "es2015", "es2016", "dom", "es2018.promise"
+    ]
+  },
+  "paths": {
+    "@/*": ["./src/*", "./*"],
+  },
+  "include": [
+    "./src",
+    "./src/**/*",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx", "src/plugins/vue-i18n.js", "src/locale/index.js", "src/locale/es/index.js", "src/locale/en/index.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "trailing-comma": [true, {
+    "singleline": "never",
+    "multiline": {
+      "objects": "never",
+      "arrays": "always",
+      "functions": "never",
+      "typeLiterals": "ignore"
+    }
+  }],
+  "no-var-requires": false
+}

@@ -1,0 +1,18 @@
+{
+    "title": "Admin",
+    "tenants": "Organizaciones",
+    "users": "Usuarios",
+    "stripe": "Stripe",
+    "switchToApp": "Ir a app",
+    "switchToAdmin": "Abrir administración",
+    "cannotHaveSubscription": "Administración no puede tener una subscripción",
+    "pricing": {
+        "title": "Productos",
+        "thesePricesAreFromFiles": "Estos precios no están en la base de datos, están cargados desde:",
+        "generateFromFiles": "Clic aquí para generar estos precios en base de datos y Stripe",
+        "goToPricingPage": "Ir a precios"
+    },
+    "resources": {
+        "title": "Recursos"
+    }
+}

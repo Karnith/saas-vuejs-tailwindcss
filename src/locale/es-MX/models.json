@@ -1,0 +1,84 @@
+{
+  "shared": {
+    "createTheFirst": "Create the first"
+  },
+  "tenant": {
+    "object": "Tenant",
+    "plural": "Tenants",
+    "name": "Name",
+    "domain": "Domain",
+    "subdomain": "Subdomain",
+    "icon": "Icon",
+    "logo": "Logo",
+    "logoDarkmode": "Darkmode",
+    "appTheme": "Theme",
+    "appColor": "Color",
+    "stripe": "Stripe",
+    "stripeCustomerId": "Customer",
+    "stripeSubscriptionId": "Subcription",
+    "member": "miembro",
+    "members": "miembros"
+  },
+  "user": {
+    "object": "User",
+    "plural": "Users",
+    "username": "Username",
+    "email": "Email",
+    "type": "Type",
+    "role": "Role",
+    "loginType": "Login type",
+    "token": "Token",
+    "defaultTenant": "Default tenant",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "expense": {
+    "object": "Gasto",
+    "plural": "Gastos",
+    "description": "Descripción",
+    "quantity": "Cantidad",
+    "price": "Precio",
+    "amount": "Importe",
+    "date": "Fecha",
+    "category": "Categoría"
+  },
+  "stripeProduct": {
+    "object": "Producto",
+    "plural": "Productos",
+    "stripeId": "ID de Stripe",
+    "tier": "Tier",
+    "title": "Título",
+    "description": "Descripción",
+    "badge": "Leyenda",
+    "active": "Activo",
+    "image": "Imagen",
+    "maxUsers": "Límite de usuarios",
+    "stripeIdLeaveEmpty": "Dejar vacío para generar en Stripe"
+  },
+  "stripePrice": {
+    "object": "Precio",
+    "plural": "Precios"
+  },
+  "stripeFeature": {
+    "object": "Característica",
+    "plural": "Características",
+    "order": "Orden",
+    "key": "Nombre",
+    "value": "Valor",
+    "included": "Incluído"
+  },
+  "resource": {
+    "object": "Recurso",
+    "plural": "Recursos",
+    "title": "Título",
+    "description": "Descripción",
+    "type": "Tipo",
+    "file": "Archivo",
+    "fileString": "Archivo",
+    "tiers": "Productos o subscripciones",
+    "roles": "Roles de usuario",
+    "errors": {
+      "invalidFile": "Archivo inválido"
+    }
+  }
+}

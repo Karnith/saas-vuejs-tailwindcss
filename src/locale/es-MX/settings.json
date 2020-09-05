@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "profileTitle": "Perfil",
+    "profileText": "Actualiza tu perfil",
+    "securityTitle": "Seguridad",
+    "securityText": "Cambia tu contraseña",
+    "passwordUpdated": "Nueva contraseña guardada",
+    "name": "Nombre",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "phone": "Celular",
+    "role": "Rol",
+    "roles": {
+      "Owner": "Propietario",
+      "Admin": "Administrador",
+      "Member": "Miembro",
+      "Guest": "Invitado"
+    },
+    "joinedMethod": "Ingresó",
+    "joined": {
+      "Creator": "Creador",
+      "JoinedByInvitation": "Por invitación",
+      "JoinedByLink": "Por enlace",
+      "JoinedByPublicUrl": "Por URL"
+    },
+    "status": {
+      "PendingInvitation": "Invitación pendiente",
+      "PendingAcceptance": "Aceptación pendiente",
+      "Active": "Activo",
+      "Inactive": "Inactivo"
+    },
+    "password": "Contraseña",
+    "passwordConfirm": "Confirmar contraseña",
+    "passwordCurrent": "Contraseña actual",
+    "profileUpdated": "Perfil guardado",
+    "errorText": "No se pudo guardar cambios",
+    "passwordMismatch": "Las contraseñas no coinciden",
+    "cannotChangePassword": "Te registraste sin contraseña, así que no tienes una"
+  },
+  "preferences": {
+    "title": "Preferencias",
+    "description": "Actualiza tus preferencias",
+    "language": "Idioma"
+  },
+  "tenant": {
+    "title": "Organización",
+    "domain": "Dominio",
+    "subdomain": "Subdominio",
+    "general": "Ajustes generales",
+    "updated": "Organización actualizada",
+    "create": "Crear organización",
+    "createDescription": "Crea una nueva organización para otra empresa o para ti",
+    "createConfirm": "Crear nueva organización?",
+    "created": "Organización creada",
+    "subscription": {
+      "title": "Subscripción",
+      "description": "Actualiza tu plan y detalles de pago",
+      "notSubscribed": "No tienes ninguna subscripción activa",
+      "notSubscribedDescription": "Por favor selecciona un plan de acuerdo a lo que necesitas",
+      "updated": "Subscripción actualizada",
+      "alreadySubscribed": "Ya estás suscrito",
+      "alreadyBought": "Ya has comprado esto",
+      "clickCancel": "Clic aquí para cancelar",
+      "confirmCancel": "Seguro que quieres cancelar tu subscripción?",
+      "canceled": "Subscripción cancelada",
+      "trialing": "Estás en periodo de prueba hasta",
+      "upcomingInvoice": "Recibo siguiente",
+      "noUpcomingInvoices": "No hay recibos siguientes",
+      "noInvoicesYet": "No hay recibos todavía",
+      "openStripePortal": "Abrir portal de subscripción"
+    },
+    "payment": {
+      "title": "Detalles de pago",
+      "card": "Tarjeta",
+      "ending": "terminación en",
+      "updated": "Detalles de pago actualizados",
+      "notset": "No se ha definido método de pago, por favor agrega una tarjeta de débito o crédito"
+    },
+    "invoices": {
+      "title": "Mis recibos"
+    },
+    "members": {
+      "title": "Miembros",
+      "maxNumberOfUsers": "Máximo número de usuarios alcanzado",
+      "invite": "Enlace de invitación",
+      "inviteDescription": "Comparte este enlace secreto para invitar a otras personas a unirse a {0}. Solo los administradores pueden ver esto.",
+      "inviteResetLink": "Clic aquí para generar nuevo enlace",
+      "enableLink": "Habilitar enlace",
+      "requireAcceptance": "Requiere aceptación"
+    }
+  }
+}

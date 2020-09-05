@@ -1,0 +1,12 @@
+"use strict";
+
+exports.__esModule = true;
+exports.products = void 0;
+
+var Product_1 = require("../../../app/models/subscription/StripeProduct");
+
+var Feature_1 = require("../../../app/models/subscription/Feature");
+
+var Price_1 = require("@/app/models/subscription/StripePrice");
+
+exports.products = [new Product_1["default"]("Small Business", "border-orange-300 bg-orange-100 inline-flex px-4 py-1 rounded-full text-sm leading-5 font-semibold tracking-wide uppercase border text-indigo-600", [new Price_1["default"]("price_1HDIDFDoGxBcf8G2hWP42Yvv", Price_1.PriceType.Recurring, 10, Price_1.BillingPeriod.Monthly, "usd"), new Price_1["default"]("price_1HDIDFDoGxBcf8G2mfHvsU7T", Price_1.PriceType.Recurring, 100, Price_1.BillingPeriod.Monthly, "usd")], [new Feature_1["default"]("Feature 1", true), new Feature_1["default"]("Feature 2", true), new Feature_1["default"]("Feature 3", true), new Feature_1["default"]("Feature 4", false), new Feature_1["default"]("Feature 5", false)], false, 14), new Product_1["default"]("Growing Business", "border-green-300 bg-green-100 inline-flex px-4 py-1 rounded-full text-sm leading-5 font-semibold tracking-wide uppercase border text-indigo-600", [new Price_1["default"]("price_1HDIDxDoGxBcf8G2WPeqEEOi", Price_1.PriceType.Recurring, 20, Price_1.BillingPeriod.Monthly, "usd"), new Price_1["default"]("price_1HDIDxDoGxBcf8G2iDJpi10K", Price_1.PriceType.Recurring, 200, Price_1.BillingPeriod.Monthly, "usd")], [new Feature_1["default"]("Feature 1", true), new Feature_1["default"]("Feature 2", true), new Feature_1["default"]("Feature 3", true), new Feature_1["default"]("Feature 4", true), new Feature_1["default"]("Feature 5", false)], true, 14), new Product_1["default"]("Enterprise", "border-indigo-300 bg-indigo-100 inline-flex px-4 py-1 rounded-full text-sm leading-5 font-semibold tracking-wide uppercase border text-indigo-600", [new Price_1["default"]("price_1HDIEKDoGxBcf8G2PvjdrtYD", Price_1.PriceType.Recurring, 30, Price_1.BillingPeriod.Monthly, "usd"), new Price_1["default"]("price_1HDIEKDoGxBcf8G2gQuiFcax", Price_1.PriceType.Recurring, 300, Price_1.BillingPeriod.Monthly, "usd")], [new Feature_1["default"]("Feature 1", true), new Feature_1["default"]("Feature 2", true), new Feature_1["default"]("Feature 3", true), new Feature_1["default"]("Feature 4", true), new Feature_1["default"]("Feature 5", true)], false, 0)];

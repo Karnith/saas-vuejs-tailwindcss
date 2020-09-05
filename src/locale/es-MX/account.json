@@ -1,0 +1,90 @@
+{
+  "shared": {
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "signIn": "Entrar",
+    "signOut": "Cerrar sesión"
+  },
+  "login": {
+    "title": "Entra a tu cuenta",
+    "button": "Entrar",
+    "orStartTrial": "comenzar prueba gratis",
+    "remember": "Recordarme",
+    "forgot": "¿Olvidaste tu contraseña?",
+    "orSignInUsing": "O entra usando",
+    "errorText": "Error al entrar",
+    "errors": {
+      "unverified": "Revisa tu correo para verificar tu cuenta",
+      "invalid": "Credenciales inválidas",
+      "exists": "Usuario ya registrado",
+      "nonexistent": "No te has registrado",
+      "passwordMissmatch": "Las contraseñas no coinciden",
+      "noTenants": "No perteneces a ninguna organización, regístrate para crear una"
+    }
+  },
+  "register": {
+    "title": "Crea tu cuenta",
+    "headline": "Regístrate y comienza en segundos",
+    "successTitle": "Bienvenido",
+    "successText": "Por favor revisa tu correo electrónico (revisa tu carpeta de spam o de promociones).",
+    "startTrial": "Comenzar prueba de {0} días",
+    "providePaymentDetails": "Por favor proporciona tus detalles de pago",
+    "confirmPassword": "Confirmar contraseña",
+    "orSignUpUsing": "O regístrate usando",
+    "clickHereToLogin": "Clic aquí para entrar",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "company": "Empresa",
+    "organization": "Organización",
+    "termsAndConditions": "términos y condiciones",
+    "privacyPolicy": "política de privacidad",
+    "alreadyRegistered": "¿Ya estás registrado?",
+    "bySigningUp": "Al registrarte, estás de acuerdo con nuestros",
+    "errorText": "Could not register",
+    "setTenantName": "Por favor especifica un nombre de organización, puede ser tu nombre",
+    "clickHereToVerify": "Clic aquí para verificar (modo desarrollo)"
+  },
+  "reset": {
+    "title": "¿Olvidaste tu contraseña?",
+    "headline": "Ingresa tu correo y te enviaremos un enlace para restablecer tu contraseña",
+    "button": "Restablecer contraseña",
+    "resetSuccess": "Contraseña restablecida",
+    "emailSent": "Por favor revisa tu correo electrónico, si no recibes ninguno por favor contacta a support@netcoresaas.com"
+  },
+  "newPassword": {
+    "title": "Nueva contraseña",
+    "button": "Actualizar contraseña"
+  },
+  "forgot": {
+    "rememberedPassword": "¿Recordaste tu contraseña?",
+    "backToLogin": "Clic aquí para entrar"
+  },
+  "invitation": {
+    "invitedYou": "te invitó a unirte",
+    "youWereInvited": "fuiste invitado a unirte a",
+    "requestAccess": "Solicita acceso para unirte a",
+    "button": "Aceptar y continuar",
+    "anotherEmail": "Clic aquí para unirte con otro usuario",
+    "successTitle": "Solicitud de acceso enviada",
+    "successText": "Tu solicitud de acceso se ha enviado al administrador, cuando sea aceptada te enviaremos un correo de bienvenida (asegúrate de revisar en spam o promociones)"
+  },
+  "verify": {
+    "title": "Verifica tu cuenta",
+    "button": "Vericar y continuar",
+    "errors": {
+      "invalid": "Credenciales inválidas",
+      "alreadyVerified": "Usuario ya verificado",
+      "organizationTaken": "Nombre de organización ya existe"
+    }
+  },
+  "tenant": {
+    "undefined": "Organización indefinida",
+    "existingUser": "Usuario ya existe en organización",
+    "subdomainTaken": "Subdominio ya existe",
+    "cannotBeWithoutOwner": "La organización no puede estar sin propietario",
+    "cannotBeWithoutMembers": "La organización no puede estar sin miembros",
+    "onlyOwner": "Solo propietarios pueden realizar esta operación",
+    "onlyAdmin": "Solo administradores o propietarios pueden realizar esta operación",
+    "onlyMember": "Solo miembros, administradores o propietarios pueden realizar esta operación"
+  }
+}

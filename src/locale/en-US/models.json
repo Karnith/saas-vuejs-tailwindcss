@@ -1,0 +1,93 @@
+{
+  "shared": {
+    "createTheFirst": "Create the first"
+  },
+  "tenant": {
+    "object": "Tenant",
+    "plural": "Tenants",
+    "name": "Name",
+    "domain": "Domain",
+    "subdomain": "Subdomain",
+    "icon": "Icon",
+    "logo": "Logo",
+    "logoDarkmode": "Darkmode",
+    "appTheme": "Theme",
+    "appColor": "Color",
+    "stripe": "Stripe",
+    "stripeCustomerId": "Customer",
+    "stripeSubscriptionId": "Subcription",
+    "member": "member",
+    "members": "members"
+  },
+  "user": {
+    "object": "User",
+    "plural": "Users",
+    "username": "Username",
+    "email": "Email",
+    "type": "Type",
+    "role": "Role",
+    "loginType": "Login type",
+    "token": "Token",
+    "defaultTenant": "Default tenant",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "expense": {
+    "object": "Expense",
+    "plural": "Expenses",
+    "description": "Description",
+    "quantity": "Quantity",
+    "price": "Price",
+    "amount": "Amount",
+    "date": "Date",
+    "category": "Category"
+  },
+  "stripeProduct": {
+    "object": "Product",
+    "plural": "Products",
+    "objectDescription": "",
+    "stripeId": "Stripe ID",
+    "tier": "Tier",
+    "title": "Title",
+    "description": "Description",
+    "badge": "Badge",
+    "active": "Active",
+    "image": "Image",
+    "maxUsers": "Max users",
+    "stripeIdLeaveEmpty": "Leave empty to create a price on Stripe"
+  },
+  "stripePrice": {
+    "object": "Price",
+    "plural": "Prices",
+    "stripeId": "Stripe ID",
+    "type": "Type",
+    "billingPeriod": "Billing period",
+    "price": "Price",
+    "currency": "Currency",
+    "trialDays": "Trial days",
+    "active": "Active",
+    "priceBefore": "Price before"
+  },
+  "stripeFeature": {
+    "object": "Feature",
+    "plural": "Features",
+    "order": "Order",
+    "key": "Name",
+    "value": "Value",
+    "included": "Included"
+  },
+  "resource": {
+    "object": "Resource",
+    "plural": "Resources",
+    "title": "Title",
+    "description": "Description",
+    "type": "Type",
+    "file": "File",
+    "fileString": "File",
+    "tiers": "Product or subscription tiers",
+    "roles": "User roles",
+    "errors": {
+      "invalidFile": "Invalid file"
+    }
+  }
+}

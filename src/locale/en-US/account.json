@@ -1,0 +1,91 @@
+{
+  "shared": {
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Log in",
+    "signOut": "Sign out"
+  },
+  "login": {
+    "title": "Sign in to your account",
+    "button": "Log in",
+    "orStartTrial": "start free trial",
+    "remember": "Remember me",
+    "forgot": "Forgot your password?",
+    "orSignInUsing": "Or sign in using",
+    "errorText": "Could not login",
+    "errors": {
+      "unverified": "Check your email to verify your account",
+      "invalid": "Invalid credentials",
+      "exists": "User already registered",
+      "nonexistent": "You have not registered",
+      "passwordMissmatch": "Password don't match",
+      "noTenants": "You don't belong to any organization, register to create one"
+    }
+  },
+  "register": {
+    "title": "Create your account",
+    "headline": "Register and start in seconds",
+    "successTitle": "Registration success",
+    "successText": "You have successfully registered, please check your email to verify your account (check spam or promotions folder).",
+    "startTrial": "Start {0} day trial",
+    "providePaymentDetails": "Please provide your payment details",
+    "confirmPassword": "Confirm password",
+    "orSignUpUsing": "Or sign up using",
+    "clickHereToLogin": "Click here to login",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "company": "Company",
+    "organization": "Organization",
+    "hostname": "Hostname",
+    "termsAndConditions": "terms and conditions",
+    "privacyPolicy": "privacy policy",
+    "alreadyRegistered": "Already registered?",
+    "bySigningUp": "By signing up, you agree to our",
+    "errorText": "Could not register",
+    "setTenantName": "Please specify your organization, it can be your name",
+    "clickHereToVerify": "Click here to verify account (Development environment)"
+  },
+  "reset": {
+    "title": "Forgot your password?",
+    "headline": "Enter your email and we will send you a link to reset your password",
+    "button": "Reset password",
+    "resetSuccess": "Password reset",
+    "emailSent": "Check your email to reset your password, if you do not receive one please contact support@netcoresaas.com"
+  },
+  "newPassword": {
+    "title": "Set up a new password",
+    "button": "Update password"
+  },
+  "forgot": {
+    "rememberedPassword": "Remebered your password?",
+    "backToLogin": "Back to login"
+  },
+  "invitation": {
+    "invitedYou": "invited you to join",
+    "youWereInvited": "you were invited to join",
+    "requestAccess": "Request access to join",
+    "button": "Accept and continue",
+    "anotherEmail": "Click here to logout to join with another user",
+    "successTitle": "Access request sent!",
+    "successText": "Your access request has been sent to the admin, if it's accepted you will receive a welcome email (make sure to check spam or promotions folder)"
+  },
+  "verify": {
+    "title": "Verify your account",
+    "button": "Verify and continue",
+    "errors": {
+      "invalid": "Invalid credentials",
+      "alreadyVerified": "User already verified",
+      "organizationTaken": "Organization name taken"
+    }
+  },
+  "tenant": {
+    "undefined": "Organization undefined",
+    "existingUser": "User already in organization",
+    "subdomain": "Hostname already taken",
+    "cannotBeWithoutOwner": "Organization cannot be without owner",
+    "cannotBeWithoutMembers": "Organization cannot be without members",
+    "onlyOwner": "Only owners can perform this operation",
+    "onlyAdmin": "Only admins or owners can perform this operation",
+    "onlyMember": "Only members, admins or owners can perform this operation"
+  }
+}

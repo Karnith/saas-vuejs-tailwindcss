@@ -1,0 +1,92 @@
+{
+  "navbar": {
+    "product": "Product",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "blog": "Blog",
+    "signIn": "Log in",
+    "signUp": "Sign up",
+    "dashboard": "Dashboard",
+    "existingCustomer": "Already have an account?"
+  },
+  "product": {
+    "pre-headline": "Sign up today!",
+    "headline1": "Your product solves",
+    "headline2": "<this thing> 🤩",
+    "subheadline": "Boldy state your unique selling point. Included your target audience in the the header or sub-header (tips from saaspages.xyz)",
+    "getStarted": "Start 14-day trial",
+    "learnMore": "Learn more"
+  },
+  "blog": {
+    "title": "Blog",
+    "headline": "Ghost.io RSS Feed"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "headline": "You can create a test account, these are fake prices",
+    "subheadline": "",
+    "startTrial": "Start {0}-day trial",
+    "subscribe": "Subscribe",
+    "upgrade": "Upgrade",
+    "downgrade": "Downgrade",
+    "buy": "Buy",
+    "pay": "Pay",
+    "payOnce": "Pay once",
+    "updateSubscription": "Update",
+    "month": "Monthly",
+    "year": "Yearly",
+    "monthly": "Monthly",
+    "annually": "Yearly",
+    "annuallyDiscount": "2 months free",
+    "MonthlyShort": "month",
+    "YearlyShort": "year",
+    "once": "once",
+    "noCreditCardRequired": "No credit card required",
+    "features": {
+      "maxNumberOfUsers": "Up to {0} users",
+      "unlimitedUsers": "Unlimited users",
+      "feature2": "Feature 2",
+      "feature3": "Feature 3",
+      "feature4": "Feature 4",
+      "feature5": "Feature 5"
+    },
+    "badges": {
+      "recommended": "Recommended"
+    }
+  },
+  "contact": {
+    "title": "Contact sales",
+    "headline": "Leave us a message!",
+    "name": "Name",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "company": "Company",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "sentTitle": "Message sent",
+    "sentMessage": "We'll be in touch soon",
+    "close": "Close"
+  },
+  "newsletter": {
+    "title": "Not sure yet, but want to know more?",
+    "signUp": "Sign up for our newsletter to stay up to date.",
+    "email": "Enter your email",
+    "wontSpam": "Don't worry, we won't spam.",
+    "subscribe": "Subscribe",
+    "subscribedTitle": "Subscribed!",
+    "subscribedText": "Thank you for subscribing to our newsletter",
+    "subscribedClose": "You're welcome",
+    "errorText": "There was a problem signin up to the newsletter"
+  },
+  "faq": {
+    "title": "Frequently asked questions"
+  },
+  "footer": {
+    "copyright": "2020, All rights reserved."
+  },
+  "launching": {
+    "launch": "Buy now!",
+    "getNotified": "Buy the SaaS Codebase Boilerplate"
+  }
+}
