@@ -53,6 +53,10 @@ If you need help you can find me on [twitter](https://twitter.com/alexandromtzg)
 
 If end up using this product for commercial purposes [consider a small donation](http://paypal.me/AlexandroMtzG) :).
 
+### What about React?
+
+Let me know if you'd like to see this frontend in React or Angular.
+
 ### [Interested in the backend?](https://netcoresaas.com)
 
 If you get an [early access license](https://netcoresaas.com/pricing), you'll be able to:
