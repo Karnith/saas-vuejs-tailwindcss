@@ -30,40 +30,31 @@
               <span class="">{{ $t("netcoresaas.backend") }}</span>
             </p>-->
           </div>
-          <div
-            class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto mx-1"
-          >
+          <div class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto mx-1">
             <div class="rounded-md shadow-sm">
               <a
                 href="https://netcoresaas.com/product"
                 target="_blank"
-                class="flex items-center justify-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-teal-600 bg-white hover:text-teal-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
-                >{{ $t("netcoresaas.getBackend") }}</a
-              >
+                class="flex items-center justify-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-teal-600 bg-white hover:bg-teal-300 focus:bg-teal-500 focus:outline-none focus:border-teal-600 focus:shadow-outline-indigo active:bg-theme-800 active:text-theme-100 transition ease-in-out duration-150"
+              >{{ $t("netcoresaas.getBackend") }}</a>
             </div>
           </div>
-          <div
-            class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto mx-1"
-          >
+          <div class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto mx-1">
             <div class="rounded-md shadow-sm">
               <a
                 href="https://github.com/netcoresaas/frontend-vuejs-tailwindcss"
                 target="_blank"
-                class="flex items-center justify-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-teal-600 bg-white hover:text-teal-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
-                >GitHub</a
-              >
+                class="space-no-wrap px-4 inline-flex items-center justify-center py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-teal-600 bg-white hover:bg-teal-300 focus:bg-teal-500 focus:outline-none focus:border-teal-600 focus:shadow-outline-indigo active:bg-theme-800 active:text-theme-100 transition ease-in-out duration-150"
+              >GitHub</a>
             </div>
           </div>
-          <div
-            class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto mx-1"
-          >
+          <div class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto mx-1">
             <div class="rounded-md shadow-sm">
               <a
                 href="https://demo.netcoresaas.com"
                 target="_blank"
-                class="flex items-center justify-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-teal-600 bg-white hover:text-teal-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
-                >{{ $t("netcoresaas.demo") }}</a
-              >
+                class="flex items-center justify-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-teal-600 bg-white hover:bg-teal-300 focus:bg-teal-500 focus:outline-none focus:border-teal-600 focus:shadow-outline-indigo active:bg-theme-800 active:text-theme-100 transition ease-in-out duration-150"
+              >{{ $t("netcoresaas.demo") }}</a>
             </div>
           </div>
           <div class="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
