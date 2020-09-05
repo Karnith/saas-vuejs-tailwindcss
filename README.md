@@ -51,7 +51,7 @@ If you need help you can find me on [twitter](https://twitter.com/alexandromtzg)
 
 ### :moneybag: Donation
 
-If end up using this product for commercial purposes [consider a small donation](http://paypal.me/AlexandroMtzG) :).
+If end up using this product for commercial purposes [sponsor this project](http://paypal.me/AlexandroMtzG) :).
 
 ### What about React?
 
