@@ -63,6 +63,6 @@ This project is free for commercial use, however it has no backend, if you're in
 
 - [x] Get the working .NET Core backend
 - [x] Use PostgreSQL or MySQL (more comming soon)
-- [x] Access to knew features released every month
+- [x] Access to new features released every month
 - [x] Setup your Stripe pricing (products/subscriptions)
 - [x] Send SMTP or [Postmark](https://postmarkapp.com) emails (welcome, invited, password reset)
