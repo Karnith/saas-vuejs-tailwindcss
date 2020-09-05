@@ -4,7 +4,7 @@
 
 <h1><a href="https://vue.netcoresaas.com">NetcoreSaas</a></h1>
 
-### [VueJS (TypeScript) + TailwindCSS frontend for SaaS apps](https://vue.netcoresaas.com)
+### [Free VueJS (TypeScript) + TailwindCSS frontend for SaaS apps](https://vue.netcoresaas.com)
 
 - [x] Marketing pages (landing, pricing, contact, blog)
 - [x] Admin pages (organizations, products, resources)
@@ -57,11 +57,11 @@ If end up using this product for commercial purposes [sponsor this project](http
 
 Let me know if you'd like to see this frontend in React or Angular.
 
-### [Interested in the backend?](https://netcoresaas.com)
+### [License](https://netcoresaas.com)
 
-If you get an [early access license](https://netcoresaas.com/pricing), you'll be able to:
+This project is free for commercial use, however it has no backend, if you're interested in the .NET Core backend, you can get an [early access license here](https://netcoresaas.com/pricing), and you'll be able to:
 
-- [x] Get the .NET Core backend
+- [x] Get the working .NET Core backend
 - [x] Use PostgreSQL or MySQL (more comming soon)
 - [x] Access to knew features released every month
 - [x] Setup your Stripe pricing (products/subscriptions)
