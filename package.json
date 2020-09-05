@@ -6,7 +6,8 @@
     "prestart": "postcss src/assets/css/main.css -o src/assets/css/out.css",
     "serve": "postcss src/assets/css/main.css -o src/assets/css/out.css & vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node server.js"
   },
   "dependencies": {
     "@aspnet/signalr": "^1.1.4",

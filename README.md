@@ -1,16 +1,28 @@
 <p align="center">
-    <a href="https://vue.netcoresaas.com"><img width="800" src="/src/assets/img/logo.png" alt="NetcoreSaas" /></a>
+    <a href="https://netcoresaas.com"><img width="800" src="/src/assets/img/logo.png" alt="NetcoreSaas" /></a>
 </p>
 
 <h1><a href="https://vue.netcoresaas.com">NetcoreSaas</a></h1>
 
-### VueJS (Typescript) + TailwindCSS - SaaS Frontend
+### [VueJS (Typescript) + TailwindCSS - SaaS Frontend](https://vue.netcoresaas.com)
 
-- [x] Multi-tenant/organization
+- [x] Marketing pages (landing, pricing, contact, blog)
+- [x] Admin pages (organizations, products, resources)
+- [x] App pages ("dashboard", expenses, permissions, my resources, organization, members, subscription, profile)
+- [x] Multi-tenant/organization: _(Each tenant is an organization)_
 - [x] Multi-role _(Owner, Admin, Member, Guest)_
 - [x] Multi-theme _(TailwindCSS based)_
 - [x] Multi-language _(English, spanish and hindi)_
-- [ ] Server _(just a fake server to simulate a backend implementation)_
+- [x] Fake server _(simulating a backend implementation on some services)_
+- [x] Integrations:
+  - [x] Authentication: [Google](https://developers.google.com/identity/sign-in/web)
+  - [x] Conversations: [Intercom](https://intercom.com), [Drift](http://drift.com)
+  - [x] Analytics: [Google](http://analytics.google.com), [Mixpanel](http://mixpanel.com), [Hotjar](https://www.hotjar.com)
+  - [x] Logging: [Sentry](http://sentry.io), [Logrocket](http://logrocket.com)
+  - [x] Newsletter: [Mailchimp](http://mailchimp.com) mailing list
+  - [x] Forms: [Formspree](https://formspree.io)
+  - [x] Blog: [Ghost](https://ghost.org) at /blog page
+  - [ ] [Stripe](http://stripe.com): Only with [NetcoreSaas backend](https://netcoresaas.com)
 
 ### :link: Links
 
@@ -40,3 +52,13 @@ If you need help you can find me on [twitter](https://twitter.com/alexandromtzg)
 ### :moneybag: Donation
 
 If end up using this product for commercial purposes [consider a small donation](http://paypal.me/AlexandroMtzG) :).
+
+### [Interested in the backend?](https://netcoresaas.com)
+
+If you get an [early access license](https://netcoresaas.com/pricing), you'll be able to:
+
+- [x] Get the .NET Core backend
+- [x] Use PostgreSQL or MySQL (more comming soon)
+- [x] Access to knew features released every month
+- [x] Setup your Stripe pricing (products/subscriptions)
+- [x] Send SMTP or Postmark emails (welcome, invited, password reset)
