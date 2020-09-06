@@ -5,8 +5,32 @@
     <a
       v-for="(color, index) in colors"
       :key="index"
-      :class="' inline-flex cursor-pointer w-5 h-5 rounded-full mx-1 bg-'+color+'-500'"
-      class="border border-text transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150"
+      class="inline-flex cursor-pointer w-5 h-5 rounded-full mx-1 border border-text transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150"
+      :class="
+        color === 'indigo'
+          ? 'bg-indigo-500'
+          : color === 'blue'
+          ? 'bg-blue-500'
+          : color === 'red'
+          ? 'bg-red-500'
+          : color === 'orange'
+          ? 'bg-orange-500'
+          : color === 'yellow'
+          ? 'bg-yellow-500'
+          : color === 'green'
+          ? 'bg-green-500'
+          : color === 'teal'
+          ? 'bg-teal-500'
+          : color === 'purple'
+          ? 'bg-purple-500'
+          : color === 'pink'
+          ? 'bg-pink-500'
+          : color === 'gray'
+          ? 'bg-gray-500'
+          : color === 'dark'
+          ? 'bg-dark-500'
+          : ''
+      "
       @click="setColor(color)"
     ></a>
   </div>
@@ -45,5 +69,4 @@ export default class ColorSwitcherComponent extends Vue {
   }
 }
 </script>
-<style>
-</style>
+<style></style>

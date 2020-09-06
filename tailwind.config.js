@@ -1,6 +1,9 @@
 module.exports = {
   prefix: "",
-  purge: ["./**/*.vue"],
+  purge: {
+    enabled: true,
+    content: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"],
+  },
   theme: {
     extend: {
       textColor: {
@@ -49,15 +52,24 @@ module.exports = {
         "theme-900": "var(--color-bg-theme-900)",
       },
       gradientColorStops: {
-        "theme-100": "var(--color-bg-theme-100); --gradient-to-color: var(--color-bg-theme-200);",
-        "theme-200": "var(--color-bg-theme-200); --gradient-to-color: var(--color-bg-theme-300);",
-        "theme-300": "var(--color-bg-theme-300); --gradient-to-color: var(--color-bg-theme-400);",
-        "theme-400": "var(--color-bg-theme-400); --gradient-to-color: var(--color-bg-theme-500);",
-        "theme-500": "var(--color-bg-theme-500); --gradient-to-color: var(--color-bg-theme-600);",
-        "theme-600": "var(--color-bg-theme-600); --gradient-to-color: var(--color-bg-theme-700);",
-        "theme-700": "var(--color-bg-theme-700); --gradient-to-color: var(--color-bg-theme-800);",
-        "theme-800": "var(--color-bg-theme-800); --gradient-to-color: var(--color-bg-theme-900);",
-        "theme-900": "var(--color-bg-theme-900); --gradient-to-color: var(--color-bg-theme-900);",
+        "theme-100":
+          "var(--color-bg-theme-100); --gradient-to-color: var(--color-bg-theme-200);",
+        "theme-200":
+          "var(--color-bg-theme-200); --gradient-to-color: var(--color-bg-theme-300);",
+        "theme-300":
+          "var(--color-bg-theme-300); --gradient-to-color: var(--color-bg-theme-400);",
+        "theme-400":
+          "var(--color-bg-theme-400); --gradient-to-color: var(--color-bg-theme-500);",
+        "theme-500":
+          "var(--color-bg-theme-500); --gradient-to-color: var(--color-bg-theme-600);",
+        "theme-600":
+          "var(--color-bg-theme-600); --gradient-to-color: var(--color-bg-theme-700);",
+        "theme-700":
+          "var(--color-bg-theme-700); --gradient-to-color: var(--color-bg-theme-800);",
+        "theme-800":
+          "var(--color-bg-theme-800); --gradient-to-color: var(--color-bg-theme-900);",
+        "theme-900":
+          "var(--color-bg-theme-900); --gradient-to-color: var(--color-bg-theme-900);",
       },
       keyframes: {
         pulse: {
