@@ -11,10 +11,10 @@
   },
   "product": {
     "pre-headline": "Sign up today!",
-    "headline1": "Your product solves",
-    "headline2": "<this thing> 🤩",
-    "subheadline": "Boldy state your unique selling point. Included your target audience in the the header or sub-header (tips from saaspages.xyz)",
-    "getStarted": "Start 14-day trial",
+    "headline1": "Free VueJS frontend",
+    "headline2": "with TypeScript and TailwindCSS 🤩",
+    "subheadline": "Use this boilerplate to build your next SaaS app, customize your theme, languages and environment variables for integrations",
+    "getStarted": "Call to action button",
     "learnMore": "Learn more"
   },
   "blog": {

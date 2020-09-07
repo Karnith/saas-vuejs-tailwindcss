@@ -11,10 +11,10 @@
   },
   "product": {
     "pre-headline": "¡Regístrate hoy!",
-    "headline1": "Tu producto soluciona",
-    "headline2": "<este problema> 🤩",
-    "subheadline": "Indica lo que diferencia a tu producto. Incluye a tu público objetivo en el encabezado o subencabezado (tips de saaspages.xyz)",
-    "getStarted": "Comenzar prueba",
+    "headline1": "Frontend VueJS gratis",
+    "headline2": "con TypeScript y TailwindCSS 🤩",
+    "subheadline": "Usa esta plantilla para desarrollar tu siguiente aplicación SaaS. Personaliza el tema, los lenguajes y tus variables de ambiente",
+    "getStarted": "Botón para CTA",
     "learnMore": "Ver más"
   },
   "blog": {

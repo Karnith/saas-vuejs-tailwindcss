@@ -11,7 +11,7 @@
           >
             {{$t("marketing.product.headline1")}}
             <br class="hidden md:inline" />
-            <span class="text-theme-600">{{$t("marketing.product.headline2")}}</span>
+            <span class="text-theme-600 text-4xl">{{$t("marketing.product.headline2")}}</span>
           </h2>
           <p
             class="mt-3 text-base text-secondary sm:mt-5 sm:text-xl lg:text-lg xl:text-xl"

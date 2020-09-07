@@ -11,10 +11,10 @@
   },
   "product": {
     "pre-headline": "आज साइन अप करें!",
-    "headline1": "आपका उत्पाद हल करता है",
-    "headline2": "<यह बात> 🤩",
-    "subheadline": "बोल्डी आपके अद्वितीय विक्रय बिंदु को बताता है। हेडर या सब-हेडर (saaspages.xyz से युक्तियां) में अपने लक्षित दर्शकों को शामिल करें",
-    "getStarted": "14-दिवसीय परीक्षण शुरू करें",
+    "headline1": "Free VueJS frontend",
+    "headline2": "with TypeScript and TailwindCSS 🤩",
+    "subheadline": "Use this boilerplate to build your next SaaS app, customize your theme, languages and environment variables for integrations",
+    "getStarted": "Call to action button",
     "learnMore": "और अधिक जानें"
   },
   "blog": {
